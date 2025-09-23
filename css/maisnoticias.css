@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+.noticiasfundo{
+    flex-wrap: wrap;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+}
+
+.noticia{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    text-align: left;
+    column-gap: 2rem;
+}
+
+.noticia p{
+    font-family: "Jomhuria";
+    font-size: 3rem;
+    color: rgb(87, 87, 87);
+}
+
+.noticia p:hover{
+    color: rgb(10, 64, 183);
+}
+
+.noticia a{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}

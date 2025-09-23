@@ -1,0 +1,41 @@
+    .tituloprincipal{
+        font-size: 4rem;
+        text-align: center;
+        color: rgb(10, 64, 183); 
+        font-family: "Jomhuria";
+        margin: 5% 0 5% 0;
+    }
+
+    .noticias{
+        display: flex;
+        font-family: "Jomhuria";
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .noticia{
+        text-align: center;
+        width: 400px;
+    }
+
+    .noticia img{
+        border: 2px solid rgb(10, 64, 183); 
+        width: 300px;
+        height: 180px;
+        border-radius: 15px;
+    }
+
+    .noticia a{
+        text-decoration: none;
+        color: rgb(87, 87, 87);
+        font-size: 30px;
+    }
+
+    .noticia a:hover{
+        color: rgb(10, 64, 183); 
+    }
+
+    #noticiasfundo{
+        margin-bottom: 15%;
+    }

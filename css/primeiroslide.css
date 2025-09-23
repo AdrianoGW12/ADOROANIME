@@ -1,0 +1,60 @@
+    @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+    #slideimagem1{
+        margin-left: 150px;
+        background-image: url(/img/jujutsu-kaisen.jpg);
+        border-radius: 30px;
+        background-size: 700px 400px;
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 400px;
+    }
+
+    #slideimagem2{
+        margin-left: 150px;
+        background-image: url(/img/naruto.jpg);
+        border-radius: 30px;
+        background-size: 700px 400px;
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 400px;
+    }
+
+    #slideimagem3{
+        margin-left: 150px;
+        background-image: url(/img/Bleach-Filme.jpg);
+        border-radius: 30px;
+        background-size: 700px 400px;
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 400px;
+    }
+
+    #slidetexto1{
+        padding-top: 300px;
+        font-size: 120px;
+        color: white;
+        text-align:center;
+        text-shadow: 2px 2px 4px black;
+        font-family: "Jomhuria";
+    }
+
+    #slidetexto2{
+        padding-top: 300px;
+        font-size: 120px;
+        color: white;
+        text-align:center;
+        text-shadow: 2px 2px 4px black;
+        font-family: "Jomhuria";
+    }
+
+    #slidetexto3{
+        padding-top: 300px;
+        font-size: 120px;
+        color: white;
+        text-align:center;
+        text-shadow: 2px 2px 4px black;
+        font-family: "Jomhuria";
+    }
+
+    

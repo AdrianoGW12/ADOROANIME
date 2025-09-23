@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+#novosanimes{
+    text-align: center;
+}
+
+.cartazesnovosanimes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.novoscartazes{
+    font-family: "Jomhuria";
+    font-size: 30px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.novoscartazes img{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(10, 64, 183); 
+    border-radius: 30px;
+}
+
+.cartazesnovosanimes:hover > :not(:hover){
+    opacity: 0.5;
+}
+
+.novoscartazes:hover{
+    transform: scale(1.10); 
+    transition: .75s;
+}
+
+.novoscartazes a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.novoscartazes a:hover{
+    color: rgb(59, 121, 254);
+}
+
+.saibamais{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.saibamais a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.saibamais h2{
+    font-size: 35px;
+    font-family: "Jomhuria";
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 320px;
+    height: 30px;
+}
+
+.saibamais h2:hover{
+    background-color: rgb(234, 234, 234);
+    color: rgb(59, 121, 254);
+}

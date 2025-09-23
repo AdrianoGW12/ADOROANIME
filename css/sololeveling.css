@@ -1,0 +1,96 @@
+.padraocartaz{
+    padding-top: 7%;
+}
+
+.conteudoanime{
+    margin-top: 50px;
+}
+
+#animetitulo h2{
+    margin-top: 30px;
+}
+
+#novoanime1, #novoanime2, #novoanime3, #novoanime4, #novoanime5{
+    margin-left: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+#novoanime1 img, #novoanime2 img, #novoanime3 img, #novoanime4 img, #novoanime5 img{
+    width: 300px;
+    height: 400px;
+}
+
+#navbarlancamentos li, .sobrepos strong:hover{
+    background-color: rgb(10, 64, 183); 
+}
+
+.sobrepos strong{
+    color: white;
+}
+
+
+.sinopse {
+    width: 2000px;
+    margin-right: 100px;
+}
+
+.sinopse p{
+    padding: 20px;
+}
+
+.avaliacao{
+    width: 500px;
+    height: 150px;
+    background-color: #df6464;
+}
+
+.conteudoanime{
+    display: flex;
+    gap: 30px;
+}
+
+article p, h2{
+    font-family: "Times New Roman", sans-serif;
+    padding: 0;
+}
+
+.informacoes{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#informacoesadicionais{
+    font-family: "Times New Roman", sans-serif;
+    margin-bottom: 40px;
+}
+
+.info p{
+    margin-top: 10px;
+}
+
+#trailer{
+    font-family: "Times New Roman", sans-serif;
+    margin-top: 30px;
+}
+
+.video{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 350px;
+}
+
+.video iframe{
+    width: 600px;
+    height: 350px;
+
+}
+
+.video h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color:  rgb(10, 64, 183);
+    border-radius: 30px 30px 0px 0px;
+    padding: 5px;
+}
