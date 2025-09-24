@@ -14,9 +14,17 @@
 .noticia{
     display: flex;
     align-items: center;
-    width: 800px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
     text-align: left;
     column-gap: 2rem;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .noticia p{
