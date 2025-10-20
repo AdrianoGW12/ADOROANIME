@@ -1,0 +1,130 @@
+:root{
+    --cor-titulo: rgb(10, 64, 183);
+    --cor-fundo: white;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+.cabecalho{
+    background-color: var(--cor-fundo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo input{
+    padding: 7px; 
+    outline: none; 
+    width: min(40%, 400px);
+    margin-top: 2rem;
+    display: block;
+}
+
+.logomarca a{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vw;
+    color: black;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#logomarca{
+    margin-top: 2rem;
+}
+
+.logomarca span {
+    color: var(--cor-titulo);
+}
+
+.exemplos{
+    text-align: center;
+    margin-top: 1.2%;
+    font-size: 2vh;
+}
+
+.exemplos a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#listacabecalho ul{ 
+    margin: 0 auto;
+    font-size: clamp(0.5rem, 1rem, 1rem); 
+}
+
+#listacabecalho a{
+    text-decoration: none;
+    color: var(--cor-titulo);
+    font-size: clamp(0.2rem, 1rem, 1rem);
+}
+
+#listacabecalho a:hover{
+    /* background-color: var(--cor-titulo); */
+    color: var(--cor-fundo);
+    cursor: pointer;
+}   
+
+.primeiralista ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.primeiralista li, .primeiralista a{
+    /* background-color: var(--cor-fundo); */
+    border-radius: 7px;
+    padding: 10px;
+    color: var(--cor-titulo);
+}
+.primeiralista li:hover{
+    background-color: var(--cor-titulo);
+    cursor: pointer;
+    border-radius: 7px;
+    color: var(--cor-fundo);
+    transition: 0.5s;
+}
+
+#programacao{
+    background-color: var(--cor-titulo);
+    color: var(--cor-fundo);
+    text-align: center;
+    padding: 1%;
+}
+
+#programacao a{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
+
+@media(max-width: 320px){
+    header {
+        width: 100vw;
+    }
+    .cabecalho{
+        height: 100%;   
+    }
+    .logomarca a{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: black;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+    #listacabecalho ul, #listacabecalho a{ 
+        margin: 0 auto;
+        font-size: 0.7rem; 
+    }
+    #programacao{
+        font-size: 0.5rem;
+    }
+}

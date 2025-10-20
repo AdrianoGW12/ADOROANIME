@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="css/documento.css">
     <link rel="stylesheet" href="css/noticias.css">
     <link rel="stylesheet" href="css/novosanimes.css">
-    <link rel="stylesheet" href="slide2.css">
+    <link rel="stylesheet" href="css/carrosseis.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     
     <header>
 
-        <section id="cabecalhoprincipal" class="cabecalho">
+        <section class="cabecalho">
 
-            <div class="logo">
+                <div class="logo">
 
-                <div class="logomarca" id="logomarca"><a href="cinema.html">ADORO<span>ANIME</span></a></div>
+                    <div class="logomarca" id="logomarca"><a href="cinema.html">ADORO<span>ANIME</span></a></div>
 
                     <input type="text" placeholder="Procurar por um filme, uma série, uma personalidade">
 
@@ -35,50 +37,62 @@
                     <li><a href="#noticiasjuntas"><strong>Notícias</strong></a></li>
                     <li><a href="#novostitulo"><strong>Lançamentos</strong></a></li>
                     <li><strong>Televisão</strong></li>
-                    <li><strong>Episódios</strong></li>
+                    <li><strong>Episódios</strong></li> 
                     <li><strong>Novelas</strong></li>
-                    <li><a href="login.html"><strong>Minha Conta</strong></a></li>
+                    <li><a href="llogin.html"><strong>Minha Conta</strong></a></li>
                 </ul>
 
                 </nav>
 
                 <p id="programacao"><strong>Descubra nossa busca por <a href="https://www.adorocinema.com/programacao/">horários de filmes</a>, as <a href="https://www.adorocinema.com/noticias-materias-especiais/">notícias</a> e <a href="https://www.adorocinema.com/materias-especiais/">matérias especiais</a> de cinema, os <a href="https://www.adorocinema.com/videos/trailers/recentes/">últimos trailers</a> e mais...</strong></p>
 
-            </section>
+        </section>
 
     </header>
 
     <main class="background">
         
         <section class="botaowpp">
-            <img src="whatsapp.png" alt="">
+            <img src="img/whatsapp.png" alt="">
         </section>
         
         <div class="fundobranco">
 
-            <section class="containerprincipal">
+        <section class="containerslides">
 
-            <div class="imagens-wrap">
+        <section class="slides">
 
-                <div class="imagens">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
 
-                    <a id="imagem1" href="animes/jujutsukaisen.html"><img src="img/jujutsu-kaisen.jpg" alt="img1"></a>
-                    <a id="imagem2" href="animes/narutoshippuden.html"><img src="img/naruto.jpg" alt="img2"></a>
-                    <a id="imagem3" href="animes/bleach.html"><img src="img/Bleach-Filme.jpg" alt="img3"></a>
+            <section class="imagem primeiro">
+                <a href="/animes/sololeveling.html"><img src="img/sololevelingwallpaper.png" alt="Solo Leveling"></a>
+            </section>
 
-                </div>
+            <section class="imagem">
+                <a href="/animes/sakamotodays.html"><img src="img/ss.jpg" alt="Sakamoto Days"></a>
+            </section>
 
-                <div class="imagens-nav">
+            <section class="imagem">
+                <a href="/animes/bleach.html"><img src="img/Bleach-Filme.jpg" alt="Bleach"></a>
+            </section>
 
-                    <a href="#imagem1"></a>
-                    <a href="#imagem2"></a>
-                    <a href="#imagem3"></a>
-
-                </div>
-
-            </div>
+            <section class="imagem">
+                <a href=""><img src="img/jujutsu-kaisen.jpg" alt="Jujutsu"></a>
+            </section>
 
         </section>
+        
+        <section class="manual">
+            <label for="radio1" class="manual-btn" id="antes"></label>
+            <label for="radio2" class="manual-btn" id="depois"></label>
+            <label for="radio3" class="manual-btn" id="depois"></label>
+            <label for="radio4" class="manual-btn" id="depois"></label>            
+        </section>
+
+    </section>
 
 
         <section id="principal">
@@ -215,7 +229,7 @@
 
     <footer>
 
-        <section id="rodape" class="final">
+        <section>
 
             <p><strong>Copyright 2025 - Criado por Adriano Souza</strong></p>
 

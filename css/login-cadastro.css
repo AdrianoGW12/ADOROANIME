@@ -9,11 +9,12 @@
         height: 300px;
         padding: 0% 3% 3%;
         box-shadow: 1px 1px 28px rgb(60, 111, 250);
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
     #idcontainercadastro{
         height: 350px;
+        margin-top: 5%;
     }
 
     .titulo{
@@ -112,4 +113,27 @@
 
     .criarconta a:hover{
         color: rgb(10,64,183);
+    }
+
+    .alerta{
+        width: 20%;
+        height: 50px;
+        text-align: center;
+        margin: 2% 0% 0% 0%;
+        background-image: linear-gradient(rgba(255, 72, 72, 0.7), rgba(255, 49, 49, 0.7)), url(/img/attackontitan.jpg);
+        background-size: cover;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #container-login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: aqua;
     }

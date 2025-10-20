@@ -34,6 +34,23 @@
         gap: 13rem;
     }
 
-    .barrafundo h2{
+    .barrafundo h2, .barrafundo a{
         text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    }
+    
+    .numep h2{
+        font-family: "Orbitron";
+    }
+
+    .btn-antes h2::before{
+        content: '\2B9C';
+    }
+
+    .btn-prox h2::before{
+        content: '\2B9E';
+    }
+
+    .btn-prox a, .btn-antes a{
+        text-decoration: none;
+        color: rgb(244, 244, 244);
     }

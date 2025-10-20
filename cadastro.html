@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="/img/icon.png">
     <link rel="stylesheet" href="css/documento.css">
     <link rel="stylesheet" href="css/login-cadastro.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/fonts/transformations.min.css' rel='stylesheet'>
 </head>
@@ -56,20 +58,20 @@
         </div>
 
         <div class="formulario">
-            <form action="">
+            <form action="backend/cadastro.php" method="post">
                 <input type="text" name="nameuser" id="idnameuser" placeholder="Username">
                 <i id="iconuser" class='bxr  bx-user'  ></i> 
                 <input type="email" name="nameemail" id="idemail" placeholder="E-mail">
                 <i id="iconemailcadastro" class='bxr  bx-envelope'></i>
                 <input type="password" name="namesenha" id="idpassword" placeholder="Senha">
                 <i id="iconsenhacadastro" class='bxr  bx-lock'></i> 
-                <input type="submit" value="Cadastrar" id="botaocadastrar">
+                <input type="submit" name="cadastro-btn" value="Cadastrar" id="botaocadastrar">
                 <i id="iconcadastrar" class='bxr  bx-user-plus'  ></i>  
             </form>
         </div>
 
         <div class="criarconta">
-            <p>Já tem uma conta? Faça o <a href=""><strong>Login</strong></a></p>
+            <p>Já tem uma conta? Faça o <a href="llogin.html"><strong>Login</strong></a></p>
         </div>
 
     </section>
