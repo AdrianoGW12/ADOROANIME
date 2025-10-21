@@ -7,18 +7,28 @@ if (isset($_POST['entrar-btn']) && !empty($_POST['nameemail']) && !empty($_POST[
     $email = $_POST['nameemail'] ?? '';
     $senha = $_POST['namesenha'] ?? '';
 
-    $sql = "SELECT * FROM usuarios WHERE id_usuario = 1 and email = '$email' and senha = '$senha'"; 
-    $resultadousuario = $mysqli->query($sql);
+    $sqlAdmin = "SELECT * FROM usuarios WHERE id_usuario = 1 and email = '$email' and senha = '$senha'"; 
+    $resultadoadmin = $mysqli->query($sqlAdmin);
 
-}
-else{
-    header ("Location: ../cinema.html");
-}
-    if(mysqli_num_rows($resultadousuario) > 0){
+    $sqlUser = "SELECT * FROM usuarios WHERE id_usuario > 1 and email = '$email' and senha = '$senha'"; 
+    $resultadousuario = $mysqli->query($sqlUser);
+
+    if(mysqli_num_rows($resultadoadmin) > 0){
         $_SESSION['nameemail'] = $email;
         $_SESSION['namesenha'] = $senha;
         header ("Location: ../dashboard.php");
+        exit;
+    }
+    elseif(mysqli_num_rows($resultadousuario) > 0){
+        $_SESSION['nameemail'] = $email;
+        $_SESSION['namesenha'] = $senha;
+        header ("Location: ../administracao.php");
+        exit;
     }
     else{
+    header ("Location: ../cinema.html");
+    }
+}
+else{
     header ("Location: ../cinema.html");
     }
