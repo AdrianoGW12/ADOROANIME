@@ -64,7 +64,7 @@ require_once('backend/conexao.php');
                             echo "<td>".$user_dados['username']."</td>";
                             echo "<td>".$user_dados['email']."</td>";
                             echo "<td>".$user_dados['senha']."</td>";
-                            echo "<td id='botoes'> <a class='btn-alterar' href='editarusuario.php?id=$user_dados[id_usuario]'> <i class='bx bx-pencil'></i></a><a class='btn-deletar' href='#'> <i class='bx bx-trash'></i> </a></td>";
+                            echo "<td id='botoes'> <a class='btn-alterar' href='editarusuario.php?id=$user_dados[id_usuario]'> <i class='bx bx-pencil'></i></a><a class='btn-deletar' href='deletar.php?id=$user_dados[id_usuario]'> <i class='bx bx-trash'></i> </a></td>";
                         }
                     ?>
                 </tbody>
